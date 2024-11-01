@@ -1,0 +1,58 @@
+//script.js
+
+function addSpace() {
+    let tx1 = document.getElementById("tx1");
+    tx1.innerHTML += "&nbsp;"
+}
+
+    index.html
+
+    <button id="space" onclick="addSpace()">space</button>
+    <!-- _______ -->
+
+    ctyle/css
+
+    line-height: 1.5; /* Увеличивает расстояние между строками */
+
+  ________________________________________  
+  
+document.getElementById("1").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "1"
+})
+// ________________________________________
+document.getElementById("2").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "2"
+})
+// ________________________________________
+document.getElementById("3").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "3"
+})
+// ________________________________________
+document.getElementById("4").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "4"
+})
+// ________________________________________
+document.getElementById("5").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "5"
+})
+// ________________________________________
+document.getElementById("6").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "6"
+})
+// ________________________________________
+document.getElementById("7").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "7"
+})
+// ________________________________________
+document.getElementById("8").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "8"
+})
+// ________________________________________
+document.getElementById("9").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "9"
+})
+// ________________________________________
+document.getElementById("0").addEventListener("click", function() {
+    document.getElementById("tx1").innerText += "0"
+})
+// ________________________________________

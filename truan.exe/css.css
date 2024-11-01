@@ -1,0 +1,89 @@
+
+#tx1{
+    width: 1515px;
+    height: 338px;
+    border: 3px solid #000;
+    overflow: hidden;
+    justify-content: center;
+    overflow-wrap: break-word;
+}
+.claviotyra{
+    display: flex;              /* Используем Flexbox */
+    justify-content: center;    /* Центрируем по горизонтали */
+    align-items: center;        /* Центрируем по вертикали */
+    height: 200px;
+    width: 810px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: blue; */
+}
+.button{
+    width: 55px;
+    height: 55px;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: background-color 1s
+}
+.button:hover{
+background-color: blue;
+transition: 0,3s;
+border: 3px solid rgb(255, 255, 255);
+}
+#button-mini{
+    width: 30px;
+    height: 55px;
+    font-size: 20px; 
+    transition: 0.3s
+}
+#skob1{
+    width: 30px;
+    height: 55px;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: 0.3s
+}
+#skob2{
+    width: 30px;
+    height: 55px;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: 0.3s
+}
+#button-mini:hover{
+background-color: blue;
+transition: 1s;
+}
+#point{
+    width: 30px;
+    height: 55px;
+    font-size: 20px; 
+    transition: 0.3s
+    /* width: 55px;
+    height: 55px;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: background-color 1s */
+}
+#rovno{
+    width: 30px;
+    height: 55px;
+    font-size: 20px; 
+    transition: 0.3s
+    /* width: 55px;
+    height: 55px;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: background-color 1s */
+}
+#point:hover{
+background-color: blue;
+transition: 1s;
+}
+#backspace{
+    width: 130px;
+}
+#space{
+    width: 270px;
+}
